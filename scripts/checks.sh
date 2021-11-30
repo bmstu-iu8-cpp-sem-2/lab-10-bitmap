@@ -32,4 +32,6 @@ cmake -H. -B_builds/sanitize-thread-cxx17 $CMAKE_OPTS
 cmake --build _builds/sanitize-thread-cxx17
 ./_builds/sanitize-thread-cxx17/tests
 
+rm -r ./_builds
+
 popd
